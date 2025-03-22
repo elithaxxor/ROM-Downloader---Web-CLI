@@ -1,7 +1,6 @@
-Creating a fun, animated, and colorful `README.md` involves using some Markdown features like emojis, badges, and GIFs to make it visually appealing. Here's a `README.md` file for the `rom_downloader` repository:
 
 ```markdown
-# 🎮 ROM Downloader 📥
+# 🎮 ROM Downloader 📥 [--- CLI or Web Interface ----]
 ```
 ![GitHub repo size](https://img.shields.io/github/repo-size/elithaxxor/rom_downloader)
 ![GitHub stars](https://img.shields.io/github/stars/elithaxxor/rom_downloader?style=social)
