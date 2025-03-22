@@ -35,7 +35,6 @@ systems = {
 
 # Store download progress
 download_status = {}
-
 async def download_file(session, url, target_path, filename, system_id):
     """Asynchronously download a file with progress updates via WebSocket."""
     zip_file = target_path / filename
@@ -54,6 +53,7 @@ async def download_file(session, url, target_path, filename, system_id):
                     downloaded += len(chunk)
                     f.write(chunk)
                     if total_size > 0:
+                        
                         progress = int((downloaded / total_size) * 100)
                         socketio.emit("progress", {"system_id": system_id, "status": "Downloading", "progress": progress})
             
@@ -64,9 +64,15 @@ async def download_file(session, url, target_path, filename, system_id):
             
             socketio.emit("progress", {"system_id": system_id, "status": "Completed", "progress": 100})
             return zip_file
+            
+    except aiohttp.ClientError as e:
+        socketio.emit("progress", {"system_id": system_id, "status": f"HTTP Error: {str(e)}", "progress": 0})
+    except zipfile.BadZipFile as e:
+        socketio.emit("progress", {"system_id": system_id, "status": f"ZIP Error: {str(e)}", "progress": 0})
     except Exception as e:
         socketio.emit("progress", {"system_id": system_id, "status": f"Error: {str(e)}", "progress": 0})
-        return None
+    return None
+
 
 @app.route("/")
 def index():
