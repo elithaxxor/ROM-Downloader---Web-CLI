@@ -2,13 +2,13 @@ Creating a fun, animated, and colorful `README.md` involves using some Markdown 
 
 ```markdown
 # 🎮 ROM Downloader 📥
-
+```
 ![GitHub repo size](https://img.shields.io/github/repo-size/elithaxxor/rom_downloader)
 ![GitHub stars](https://img.shields.io/github/stars/elithaxxor/rom_downloader?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/elithaxxor/rom_downloader?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/elithaxxor/rom_downloader)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/elithaxxor/rom_downloader)
-
+```
 Welcome to **ROM Downloader**! This is your ultimate tool to automatically download ROMs either via a CLI or a web interface. Download single or multiple files effortlessly! 
 
 ## ✨ Features
