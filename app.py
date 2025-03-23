@@ -19,7 +19,7 @@ roms_base_dir = Path.home() / "roms"
 systems = {
     1: {"name": "Nintendo NES", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%20NES.zip", "dir": "nes"},
     2: {"name": "Nintendo SNES", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%20SNES.zip", "dir": "snes"},
-    3: {"name": "Nintendo Game Boy", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%20Game%20Boy.zip", "dir": "gb"},
+    3: {"name": "Nintendo Game Boy", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%2rmak0Game%20Boy.zip", "dir": "gb"},
     4: {"name": "Nintendo Game Boy Color", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%20Game%20Boy%20Color.zip", "dir": "gbc"},
     5: {"name": "Nintendo Game Boy Advance", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%20Game%20Boy%20Advance.zip", "dir": "gba"},
     6: {"name": "Nintendo N64", "url": "https://archive.org/download/retro-roms-best-set/Nintendo%20-%20N64.zip", "dir": "n64"},
