@@ -9,6 +9,21 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/elithaxxor/rom_downloader)
 ```
 Welcome to **ROM Downloader**! This is your ultimate tool to automatically download ROMs either via a CLI or a web interface. Download single or multiple files effortlessly! 
+## 🚀 Getting Started
+# ROM Downloader - Web & CLI
+
+**Highly Organized. Accessible via terminal or webpage. There is a stand-alone Threaded app if <50 downloads aside from that it's asynchronous.**
+
+## Overview
+
+ROM Downloader is a versatile application that provides users with the ability to download ROM files either through a command-line interface (CLI) or a web interface. The application is designed to handle high loads efficiently with asynchronous processing, ensuring a smooth user experience even with multiple simultaneous downloads.
+
+## Features
+
+- **Web Interface:** Easily accessible through a web browser.
+- **CLI Interface:** Download ROMs directly from the terminal.
+- **Asynchronous Processing:** Efficiently handles multiple downloads at once.
+- **Threaded App:** Stand-alone threaded app for cases with fewer than 50 downloads.
 
 ## ✨ Features
 
@@ -18,7 +33,68 @@ Welcome to **ROM Downloader**! This is your ultimate tool to automatically downl
 - 🔍 **Search Functionality**: Find and download your favorite ROMs quickly.
 - 🛠️ **Customizable Settings**: Tailor the download settings to your needs.
 
-## 🚀 Getting Started
+## Technologies Used
+
+- **Python:** Main programming language.
+- **HTML:** For the web interface.
+- **CSS:** To style the web interface.
+
+## Installation
+
+### Prerequisites
+
+- Python 3.6 or later
+- pip (Python package installer)
+
+### Steps
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/elithaxxor/ROM-Downloader---Web-CLI.git
+    cd ROM-Downloader---Web-CLI
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+### Web Interface
+
+1. Start the web server:
+    ```bash
+    python app.py
+    ```
+
+2. Open your web browser and navigate to `http://localhost:5000`.
+
+### CLI Interface
+
+1. Run the CLI tool:
+    ```bash
+    python cli.py --download <ROM_URL>
+    ```
+
+### Stand-alone Threaded App
+
+1. Run the threaded app for fewer than 50 downloads:
+    ```bash
+    python threaded_app.py
+    ```
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or issues, please open an issue on the GitHub repository or contact the maintainer at [elithaxxor](https://github.com/elithaxxor).
 
 ### Prerequisites
 
@@ -74,25 +150,6 @@ Open your browser and navigate to `http://localhost:8000` to access the web inte
 - **HTML & CSS**: For structuring and styling the web interface.
 - **PowerShell**: Additional scripts.
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/elithaxxor/rom_downloader/issues).
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🎉 Acknowledgments
-
-- Thanks to all contributors and users!
-
----
 
 Made with ❤️ by [elithaxxor](https://github.com/elithaxxor)
 
