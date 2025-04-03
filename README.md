@@ -2,6 +2,12 @@
 ```markdown
 # 🎮 ROM Downloader 📥 [--- CLI or Web Interface ----]
 ```
+```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9ddd711d-6108-46d3-aa8d-059c4bb358f9" alt="romdownloader" width="300" />
+</p>
+
+```
 ![GitHub repo size](https://img.shields.io/github/repo-size/elithaxxor/rom_downloader)
 ![GitHub stars](https://img.shields.io/github/stars/elithaxxor/rom_downloader?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/elithaxxor/rom_downloader?style=social)
